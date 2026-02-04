@@ -1,7 +1,6 @@
 import numpy as np
 from tkinter import *
 from model import tree, le, features
-
 answers = []
 root = Tk()
 root.title("Guess the Country!")
