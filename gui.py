@@ -24,7 +24,6 @@ question = Label(root, text=features[q_index] + " ?", font=("Arial", 14))
 question.pack(pady=20)
 yes_btn = Button(root, text="Yes", width=10, command=lambda: answer(1))
 yes_btn.pack(side=LEFT, padx=50)
-
 no_btn = Button(root, text="No", width=10, command=lambda: answer(0))
 no_btn.pack(side=RIGHT, padx=50)
 
