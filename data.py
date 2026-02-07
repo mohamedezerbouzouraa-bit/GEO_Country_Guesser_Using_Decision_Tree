@@ -5,8 +5,7 @@ data = {
         'Germany','France','Italy','Spain','Portugal','Netherlands','Belgium','Sweden','Poland','Austria',
         'UK','Russia','Turkey','Greece','Switzerland',
         'Morocco','Algeria','Tunisia','Egypt','Nigeria','South Africa','Kenya','Ethiopia','Ghana','Senegal',
-        'China','India','Japan','South Korea','Indonesia'
-    ],
+        'China','India','Japan','South Korea','Indonesia'],
     'pop_over_50M':[1,1,1,1,0,0,0,0,0,0,1,1,1,0,0,0,1,0,1,1,1,0,1,0,0,1,1,1,1,1],
     'pop_over_100M':[0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,0,1,1,0,0,1,0,0,1,1,0,0,1],
     'has_beach':[1,1,1,1,1,1,1,1,1,0,1,1,1,1,0,1,1,1,1,1,1,0,0,1,1,1,1,1,1,1],
@@ -23,5 +22,4 @@ data = {
     'g20_member':[1,1,1,0,0,0,0,0,0,0,1,1,1,0,0,0,0,0,1,1,1,0,0,0,0,1,1,1,1,1],
     'drives_on_left':[0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1]
 }
-
 df = pd.DataFrame(data)
